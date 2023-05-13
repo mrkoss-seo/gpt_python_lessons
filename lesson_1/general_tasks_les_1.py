@@ -4,8 +4,7 @@ def get_statistics(lst):
     lst.sort()
     return f'{round(sum(lst)/len(lst),1), lst[0], lst[-1]}'
 result = get_statistics(lst)
-print(type(result))
-"3.0, 5, 1"
+print(result)
 
 #task2
 list1 = ['apple', 'banana', 'cherry']
