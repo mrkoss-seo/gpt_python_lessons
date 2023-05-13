@@ -1,3 +1,2 @@
 name = input("Введите ваше имя: ")
-name_first_symbol = name[0]
-print(f"Привет, {name_first_symbol.upper}+{name[1:]}!")
+print(f"Привет, {name[0].upper()}{name[1:]}!")
